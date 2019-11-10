@@ -22,9 +22,9 @@ public class Q4 {
 
         double sum = 1;
         for (int i = 1; i <= terms; i++) {
-            int sign = (i%2==0) ? 1 : -1;
-            double num = Math.pow(xVal,i*2);
-            double dom = fact(i*2);
+            int sign = (i % 2 == 0) ? 1 : -1;
+            double num = Math.pow(xVal, i * 2);
+            double dom = fact(i * 2);
             sum += sign * (num / dom);
         }
 
@@ -33,9 +33,8 @@ public class Q4 {
 
     }
 
-    private static int fact(int i){
-        if(i == 0)return 1;
-        return i * fact(i-1);
+    private static int fact(int i) {
+        return i == 0 ? 1 : fact(i - 1);
     }
 
 
