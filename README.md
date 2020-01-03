@@ -7,12 +7,12 @@
 - [Lecture 3 Summary](Lectures/Lecture-3.md) 
 - [Lecture 4 Summary](Lectures/Lecture-4.md) 
 - [Lecture 5 Summary](Lectures/Lecture-5.md) 
-- Lecture 6 Summary
+- [Lecture 6 Summary](Lectures/Lecture-6.md) 
 - Lecture 7 Summary
 - Lecture 8 Summary
 - Lecture 9 Summary
 
-## [Sheets](src/main/java/com/tarekkma/fee_advprog/sheets)
+## [Go to **Solved Sheets**](src/main/java/com/tarekkma/fee_advprog/sheets)
 
 ## Lecture Programs
 
