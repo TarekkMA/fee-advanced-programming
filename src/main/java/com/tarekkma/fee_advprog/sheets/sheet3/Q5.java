@@ -7,8 +7,8 @@ import java.util.Scanner;
  * odd number of asterisks.
  * Test Data:
  * Enter number of rows: 3
- * *
- * ***
+ *   *
+ *  ***
  * *****
  */
 public class Q5 {
