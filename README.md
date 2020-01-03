@@ -1,4 +1,4 @@
-# Index
+# Advanced Programming Index
 
 ## Lectures Summary
 
