@@ -1,6 +1,6 @@
 ## Why Java
 1. Java enables users to develop and deploy applications on the Internet for servers, desktop computers, and small hand-held devices. And the future of computing is influenced by the Internet.
-2. Java was never just a language, it is awhole platform with huge library
+2. Java was never just a language, it is a whole platform with huge library
 3. Java is general purpose programming language
 4. Java is the Internet programming language
 
@@ -14,7 +14,7 @@
 1. Simple
 2. Robust
 3. Object Oriented
-4. Distrubuted
+4. Distributed
 5. Secure
 6. Architecture Neutral
 7. Interpreted
@@ -25,20 +25,20 @@
 
 ## Java Applets
 - Programs that work on web pages are called applets
-- To use an applet, you need a java enabled web browser, which will execute the bytecodes for you
+- To use an applet, you need a java enabled web browser, which will execute the bytecode for you
 
 ## History of Java
 - In 1991, **Sun** engineers wanted to design a small computer language that can be used for consumer devices.
-- Since these devices don't have alot of power or memory, java had to be small and generate small code.
-- Also the language had to produce differant bytecode, becase manufacturers may choose different CPU.
+- Since these devices don't have a lot of power or memory, java had to be small and generate small code.
+- Also the language had to produce different bytecode, because manufacturers may choose different CPU.
 - Java project was code-named **Green**
-- Becase Sum engineers had Unix background, java was influnced by C++ rather than Lisp, Smalltalk, or Pascal
+- Because Sum engineers had Unix background, java was influenced by C++ rather than Lisp, Smalltalk, or Pascal
 - 1.0 version was released in 1996
-- 1.1 version filled gaps, imporved the reflection feature, and added a new event model for GUI programming
+- 1.1 version filled gaps, improved the reflection feature, and added a new event model for GUI programming
 - 1.2 version was released in 1998 in JavaOne conference. In this version GUI and graphics was improved. The version name was changed to be Java 2
-- In 2009 Oracel purchased Sum Microsystems
-- Java 7 was relaesed in 2011 with simple enhancemnets
-- Java 8 was released in 2014 with significant changes to the Java language. It emberaced a functional style of programming.
+- In 2009 Oracle purchased Sun Micro Systems
+- Java 7 was relapsed in 2011 with simple enhancements
+- Java 8 was released in 2014 with significant changes to the Java language. It embraced a functional style of programming.
 - Java 9 was released in 2017
 - After 2018 Java versions are released every 6 months.
 - Java 11 is LTS long term support version.
