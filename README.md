@@ -37,9 +37,9 @@
 - [Calling Max](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/CallingMax.java)
 - [Format](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/Format.java)
 
-## [Lecture 6 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec7)
-- [TestingArrays](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/TestingArrays.java)
-- [ArraysAsArgs](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/ArraysAsArgs.java)
+## [Lecture 6 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec6)
+- [TestingArrays](src/main/java/com/tarekkma/fee_advprog/lecs/lec6/TestingArrays.java)
+- [ArraysAsArgs](src/main/java/com/tarekkma/fee_advprog/lecs/lec6/ArraysAsArgs.java)
 
 ## [Lecture 8 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec8)
-- [NumberOfCircles](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/NumberOfCircles.java)
+- [NumberOfCircles](src/main/java/com/tarekkma/fee_advprog/lecs/lec8/NumberOfCircles.java)
