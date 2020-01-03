@@ -29,7 +29,7 @@ public class Q6 {
             System.exit(1);
         }
 
-        if(List.of('a','e','i','o','u').contains(c)){
+        if(List.of('a','e','i','o','u').contains(Character.toLowerCase(c))){
             System.out.println("Input letter is Vowel");
         }else {
             System.out.println("Input letter is Consonant");
