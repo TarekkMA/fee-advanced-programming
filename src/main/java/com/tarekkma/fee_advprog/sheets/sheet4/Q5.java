@@ -22,7 +22,8 @@ public class Q5 {
                 res.append(rem == 0 ? "0" : "1");
                 number /= 2;
             }
-            return res.toString();
+            //we have to reverse the result
+            return res.reverse().toString();
         }
     }
 
