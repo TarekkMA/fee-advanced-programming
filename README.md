@@ -3,10 +3,10 @@
 ## Lectures Summary
 
 - [Lecture 1 Summary](Lectures/Lecture-1.md) 
-- [Lecture 2 Summary](Lectures/Lecture-1.md) 
-- [Lecture 3 Summary](Lectures/Lecture-1.md) 
-- [Lecture 4 Summary](Lectures/Lecture-1.md) 
-- [Lecture 5 Summary](Lectures/Lecture-1.md) 
+- [Lecture 2 Summary](Lectures/Lecture-2.md) 
+- [Lecture 3 Summary](Lectures/Lecture-3.md) 
+- [Lecture 4 Summary](Lectures/Lecture-4.md) 
+- [Lecture 5 Summary](Lectures/Lecture-5.md) 
 - Lecture 6 Summary
 - Lecture 7 Summary
 - Lecture 8 Summary
