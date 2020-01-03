@@ -12,6 +12,8 @@
 - Lecture 8 Summary
 - Lecture 9 Summary
 
+## [Sheets](src/main/java/com/tarekkma/fee_advprog/sheets)
+
 ## Lecture Programs
 
 ### [Lecture 2 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec2)
