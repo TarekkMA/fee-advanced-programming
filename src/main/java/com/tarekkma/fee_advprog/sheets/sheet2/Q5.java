@@ -11,34 +11,20 @@ import java.util.Scanner;
  */
 public class Q5 {
 
-    interface DaysInMonthFunc {
-        int calcDays(int year);
-    }
-
-    static class Month {
-        final DaysInMonthFunc daysInMonthFunc;
-        final String name;
-
-        Month(String name, DaysInMonthFunc daysInMonthFunc) {
-            this.daysInMonthFunc = daysInMonthFunc;
-            this.name = name;
-        }
-    }
-
     public static void main(String[] args) {
-        Month[] months = {
-                new Month("January", (y) -> 31),
-                new Month("February", (y) -> (y % 4 == 0) ? 29 : 28),
-                new Month("March", (y) -> 31),
-                new Month("April", (y) -> 30),
-                new Month("May", (y) -> 31),
-                new Month("June", (y) -> 31),
-                new Month("July", (y) -> 31),
-                new Month("August", (y) -> 31),
-                new Month("September", (y) -> 30),
-                new Month("October", (y) -> 31),
-                new Month("November", (y) -> 30),
-                new Month("December", (y) -> 31),
+        String[] names = {
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
         };
 
         Scanner scanner = new Scanner(System.in);
@@ -47,8 +33,27 @@ public class Q5 {
         System.out.print("Input a monthIndex year: ");
         int year = scanner.nextInt();
 
-        Month m = months[monthIndex-1];
-        System.out.printf("%s %d has %d days\n", m.name, year, m.daysInMonthFunc.calcDays(year));
+        int days = 0;
+        String name = names[monthIndex-1];
+
+        switch (monthIndex) {
+            case 2:
+                if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+                    days = 29;
+                }else {
+                    days = 28;
+                }
+                break;
+            case 4: case 11: case 9:
+                days = 30;
+                break;
+            case 1: case 12: case 10: case 8:
+            case 7: case 6: case 5: case 3:
+                days = 31;
+                break;
+        }
+
+        System.out.printf("%s %d has %d days\n", name, year,days);
     }
 
 }
