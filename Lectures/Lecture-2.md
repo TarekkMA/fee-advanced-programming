@@ -7,7 +7,7 @@
 - Can only start with a
     - letter
     - underscore
-    - doller sign
+    - dollar sign
 - Can't start with a digit
 - Can't be a reserved word. such (true, false, class, null, else)
 - Identifier can be of any length
@@ -118,9 +118,9 @@ public class CelsiusFromFahrenheits {
 - ``var++`` or ``var--``
 
 ## Type Conversion Rules
-Java automaticly converts the operands based on:
+Java automatically converts the operands based on:
 1. If one is double the other is converted to `double`
-2. If one is flaot the other is converted to `float`
+2. If one is float the other is converted to `float`
 3. If one is long the other is converted to `long`
 4. Otherwise both operands are converted to `int`
 
@@ -135,10 +135,10 @@ int i = (int)3.4;
 ```
 ### We can't implicitly downcast
 **Downcast** is to cast from bigger data type to smaller datatype
-`int x = 5 / 2.0` is wrong becase the type of `5 / 2.0` is double and it can't be casted implicitly to int.
+`int x = 5 / 2.0` is wrong because the type of `5 / 2.0` is double and it can't be casted implicitly to int.
 `int x = (int) (5 / 2.0)` would solve the error.
 
-### Types Orrder
+### Types Order
 byte ⇐ short ⇐ int ⇐ long ⇐ float ⇐ double
 
 ## ``Code`` Keeping Two Digits After Decimal Points
@@ -156,7 +156,7 @@ public class KeepingDigitsAfterPoints {
 ```
 
 ## Character Data Type
-- We can assign the letter as fllows `char c = 'T';` 
+- We can assign the letter as follows `char c = 'T';` 
 - We also can use the unicode number for the character `char c = '\u00A1';`
 - The ++ or -- can be used to obtain the next char or the prev char
 
@@ -164,7 +164,7 @@ public class KeepingDigitsAfterPoints {
 - Java uses unicode format 16 bit
 - It is established by the **Unicode Consortium**
 - Also Known as UTF-16
-- Unicode taks 2 bytes (16 bit) (4 hex)
+- Unicode takes 2 bytes (16 bit) (4 hex)
 - From '\u0000' to '\uFFFF'
 - It can represent 2^16 characters
 
@@ -172,12 +172,12 @@ public class KeepingDigitsAfterPoints {
 - \b Backspace
 - \t Tab
 - \n Linefeed
-- \r Carriage Returen
+- \r Carriage Return
 - \\\ Backslash
 - \' Single Quote
 - \" Double Quote
 
-## ASCII Chacter Set
+## ASCII Character Set
 - It uses 7 bits
 - Can represent 2^7 characters
 - Allocates the first 128 code of the unicode from 0000 to 007f
@@ -193,7 +193,7 @@ char c = (char)98;
 ```
 
 ## String Concatenation
-We can use `+` oprator to concatenate between strings
+We can use `+` operator to concatenate between strings
 ```java
 String message = "Hello " + "Ya " + "M3lm";
 ```
@@ -239,7 +239,7 @@ public class ComputingLoanPayment {
 }
 ```
 
-## `Code` Displaying Currunt Time
+## `Code` Displaying Currant Time
 ```java
 public class DisplayingTime {
     public static void main(String[] args) {
@@ -273,7 +273,7 @@ Scanner scanner = new Scanner(System.in);
 
 ## Programming Style and Documentation
 - Appropriate Comments
-    - Inclue a summary at the begining of the program to explain:
+    - Include a summary at the beginning of the program to explain:
         - What the program does
         - Key features
         - Supporting data structures
@@ -282,12 +282,12 @@ Scanner scanner = new Scanner(System.in);
     - Choose meaningful and descriptive names
     - Variables and Methods names should be in camelCase
         - Compute Area should be `computeArea`
-        - Raduis should be `raduis`
+        - Radius should be `raduis`
     - Class names should be in PascalCase
         - Compute Area should be `ComputeArea`
-    - Constants should be all in CAPITALIZED letters and use undersocre to connect words
+    - Constants should be all in CAPITALIZED letters and use underscore to connect words
         - Max Value should be `MAX_VALUE`
 - Proper Indentation and Spacing Lines
     - Use 2 spaces for indentation
-    - Use balnk line to separate segments of the code
+    - Use blank line to separate segments of the code
 - Block Style
