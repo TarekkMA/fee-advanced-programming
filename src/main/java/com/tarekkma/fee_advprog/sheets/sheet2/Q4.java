@@ -25,7 +25,7 @@ public class Q4 {
 
     private static boolean isDoublesEqual(double f1,double f2,int decimalPlaces){
         final double THRESHOLD = Math.pow(0.1,decimalPlaces);
-        return Math.abs(f1 - f2) > THRESHOLD;
+        return Math.abs(f1 - f2) < THRESHOLD;
     }
 
 }
