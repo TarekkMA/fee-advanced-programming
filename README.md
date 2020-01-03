@@ -16,9 +16,9 @@
 
 ### [Lecture 2 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec2)
 
+- [DisplayingTime](src/main/java/com/tarekkma/fee_advprog/lecs/lec2/DisplayingTime.java)
 - [CelsiusFromFahrenheits](src/main/java/com/tarekkma/fee_advprog/lecs/lec2/CelsiusFromFahrenheits.java)
 - [ComputingLoanPayment](src/main/java/com/tarekkma/fee_advprog/lecs/lec2/ComputingLoanPayment.java)
-- [DisplayingTime](src/main/java/com/tarekkma/fee_advprog/lecs/lec2/DisplayingTime.java)
 - [GettingInputFromInputDialog](src/main/java/com/tarekkma/fee_advprog/lecs/lec2/GettingInputFromInputDialog.java)
 - [KeepingDigitsAfterPoints](src/main/java/com/tarekkma/fee_advprog/lecs/lec2/KeepingDigitsAfterPoints.java)
 
@@ -37,10 +37,9 @@
 - [Calling Max](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/CallingMax.java)
 - [Format](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/Format.java)
 
-## Lecture 6
+## [Lecture 6 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec7)
+- [TestingArrays](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/TestingArrays.java)
+- [ArraysAsArgs](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/ArraysAsArgs.java)
 
-## Lecture 7
-
-## Lecture 8
-
-## Lecture 9
+## [Lecture 8 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec8)
+- [NumberOfCircles](src/main/java/com/tarekkma/fee_advprog/lecs/lec5/NumberOfCircles.java)
