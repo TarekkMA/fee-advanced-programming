@@ -129,3 +129,16 @@ d2.toString();
 // return 
 d1.toTime();
 ```
+
+## Random Class
+- Can be found on `java.util` package.
+- If two Random objects have the same `seed` they will generate the same random sequence of numbers
+```java
+//seed is derived from the current time 
+Random r1 = new Random();
+//seed is 100
+Random r2 = new Random(100);
+
+r1.nextInt();
+r1.nextInt(bound);
+```
