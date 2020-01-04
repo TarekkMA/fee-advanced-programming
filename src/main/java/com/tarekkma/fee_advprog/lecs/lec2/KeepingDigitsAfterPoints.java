@@ -13,6 +13,9 @@ public class KeepingDigitsAfterPoints {
 
         price = price * taxRate;
 
-        System.out.println("Sales Tax: " + ((int) (price * 100)) / 100.0);
+        int pr = (int) (price * 100);
+        double price2Decimals = pr / 100.0;
+
+        System.out.println("Sales Tax: " +price2Decimals);
     }
 }
