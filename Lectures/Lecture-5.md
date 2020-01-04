@@ -1,3 +1,5 @@
+# Lecture 5
+
 ## Method Abstraction
 - Think of the method body as a block box that contains detailed implementation of the method, but you can only see the input and output.
 

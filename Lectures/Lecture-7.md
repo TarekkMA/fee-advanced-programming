@@ -1,3 +1,5 @@
+# Lecture 7
+
 ## OOP
 - **OOP** is object oriented programming and it involves programming using objects
 - **Object** representation of an entity in the real world that can be distinctly identified

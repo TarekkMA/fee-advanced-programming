@@ -1,3 +1,5 @@
+# Lecture 1
+
 ## Why Java
 1. Java enables users to develop and deploy applications on the Internet for servers, desktop computers, and small hand-held devices. And the future of computing is influenced by the Internet.
 2. Java was never just a language, it is a whole platform with huge library

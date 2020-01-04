@@ -1,3 +1,5 @@
+# Lecture 6
+
 ## Arrays
 is a data structure that represents a collection of the same types of data
 

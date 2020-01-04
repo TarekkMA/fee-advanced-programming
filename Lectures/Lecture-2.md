@@ -1,3 +1,5 @@
+# Lecture 2
+
 ## Identifiers
 - A sequence of characters that consist of
     - letters

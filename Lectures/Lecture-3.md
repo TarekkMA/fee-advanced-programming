@@ -1,3 +1,5 @@
+# Lecture 3
+
 ## Comparison Operators
 - `<` 
 - `<=` 

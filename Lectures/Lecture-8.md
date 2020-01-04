@@ -1,3 +1,5 @@
+# Lecture 8
+
 ## Static Variables/Methods
 - Static variables/methods are shared between all instances of the class.
 - Static variables/methods are not tied to a specific object.
