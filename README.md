@@ -44,7 +44,7 @@
 - [ArraysAsArgs](src/main/java/com/tarekkma/fee_advprog/lecs/lec6/ArraysAsArgs.java)
 
 ## [Lecture 7 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec7)
-- [SimpleCircleClass](src/main/java/com/tarekkma/fee_advprog/lecs/lec6/SimpleCircleClass.java)xwxk
+- [SimpleCircleClass](src/main/java/com/tarekkma/fee_advprog/lecs/lec7/SimpleCircleClass.java)
 
 ## [Lecture 8 Programs](src/main/java/com/tarekkma/fee_advprog/lecs/lec8)
 - [NumberOfCircles](src/main/java/com/tarekkma/fee_advprog/lecs/lec8/NumberOfCircles.java)
