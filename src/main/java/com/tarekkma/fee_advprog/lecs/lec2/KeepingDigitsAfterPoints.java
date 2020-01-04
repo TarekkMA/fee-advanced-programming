@@ -7,9 +7,12 @@ public class KeepingDigitsAfterPoints {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter Sales Tax:");
+        double taxRate = scanner.nextDouble();
+        System.out.print("Enter Price");
         double price = scanner.nextDouble();
-        double tax = price * 0.06;
-  
-        System.out.println("Sales Tax: " + (int)(tax * 100) / 100.0);
+
+        price = price * taxRate;
+
+        System.out.println("Sales Tax: " + ((int) (price * 100)) / 100.0);
     }
 }
